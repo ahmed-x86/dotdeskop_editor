@@ -387,7 +387,6 @@ private:
             menu.exec(pos);
         });
 
-        // ============ GRID MODE ============
         if (m_mode == ViewMode::Grid) {
             setFixedHeight(176);
             setMinimumWidth(190);
