@@ -633,9 +633,7 @@ static QVector<DesktopEntry> parseDesktopFiles() {
     return out;
 }
 
-// =============================================================================
-//  Global QSS
-// =============================================================================
+
 static QString globalStylesheet() {
     return QStringLiteral(R"QSS(
 
