@@ -754,9 +754,7 @@ static QString rippleButtonQSS() {
     );
 }
 
-// =============================================================================
-//  Helpers to (re)build the card grid / list
-// =============================================================================
+
 
 static constexpr int kGridCols = 4;
 
