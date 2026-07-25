@@ -816,9 +816,7 @@ static int reflowLayout(
     return visibleCount;
 }
 
-// =============================================================================
-//  main
-// =============================================================================
+
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
