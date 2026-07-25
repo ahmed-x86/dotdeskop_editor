@@ -382,7 +382,6 @@ private:
                 }
             });
 
-            // Show menu under the button aligned to the right
             QPoint pos = optBtn->mapToGlobal(QPoint(optBtn->width() - menu.sizeHint().width(), optBtn->height()));
             menu.exec(pos);
         });
