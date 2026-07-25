@@ -556,9 +556,7 @@ static QIcon loadIcon(const QString &name) {
     return QIcon::fromTheme(QStringLiteral("application-x-executable"));
 }
 
-// =============================================================================
-//  .desktop parser
-// =============================================================================
+
 static QVector<DesktopEntry> parseDesktopFiles() {
     const QStringList searchDirs = {
         QStringLiteral("/usr/share/applications"),
