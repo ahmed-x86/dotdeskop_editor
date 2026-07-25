@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_dotdesktop_editor_FILE /mnt/data/github_repos/dotdeskop_editor/dotdesktop_editor)
+set(__QT_DEPLOY_TARGET_dotdesktop_editor_TYPE EXECUTABLE)
