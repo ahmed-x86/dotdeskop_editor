@@ -297,7 +297,6 @@ private:
     ViewMode     m_mode;
     bool         m_hovered = false;
 
-    // Recursive layout clearing to fix ghost widgets
     void clearLayout(QLayout *lay) {
         if (!lay) return;
         while (QLayoutItem *item = lay->takeAt(0)) {
