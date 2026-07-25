@@ -445,9 +445,7 @@ private:
     }
 };
 
-// =============================================================================
-//  GlowWindow  —  custom window with mouse-following radial gradient
-// =============================================================================
+
 class GlowWindow : public QWidget {
     Q_OBJECT
 
