@@ -321,7 +321,6 @@ private:
     void buildLayout() {
         const int iconSz = (m_mode == ViewMode::Grid) ? 48 : 36;
 
-        // ---- Icon pixmap ----
         QPixmap pix = m_icon.pixmap(iconSz, iconSz);
         if (pix.isNull())
             pix = QIcon::fromTheme(QStringLiteral("application-x-executable")).pixmap(iconSz, iconSz);
