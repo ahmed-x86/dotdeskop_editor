@@ -1,0 +1,23 @@
+# CMake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+
+# Qt Autogen files
+dotdesktop_editor_autogen
+
+# Executable
+dotdesktop_editor
+
+# Object files and libraries
+*.o
+*.a
+*.so
+
+# Build directories (for future out-of-source builds)
+build/
+
+
+auto_push.py
