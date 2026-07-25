@@ -508,9 +508,7 @@ private:
     QTimer *m_timer = nullptr;
 };
 
-// =============================================================================
-//  Icon helper
-// =============================================================================
+
 static QIcon loadIcon(const QString &name) {
     if (name.isEmpty())
         return QIcon::fromTheme(QStringLiteral("application-x-executable"));
